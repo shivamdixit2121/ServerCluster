@@ -1,0 +1,14 @@
+<own>
+<components>
+Main_process Port 2100
+Load_balancer Port 2200
+Worker Port 2300
+</components>
+Public_address 198.168.0.102
+Private_address 10.2.12.56
+</own>
+<seniors>
+<node>
+Public_address_and_port 1.1.1.1 23
+Private_address_and_port 2.2.2.2 56
+</node>

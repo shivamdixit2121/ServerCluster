@@ -1,0 +1,14 @@
+<own>
+<components>
+Main_process Port 4100
+Load_balancer Port 4200
+Worker Port 4300
+</components>
+Public_address 198.168.0.102
+</own>
+<seniors>
+<node>
+Public_address_and_port localhost 2100
+</node>
+</seniors>
+
